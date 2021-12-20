@@ -62,7 +62,7 @@ namespace TaskLesson
                 endpoints.MapAreaControllerRoute(
                    name: "Areas",
                    areaName: "Admin",
-                    pattern: "Admin/{controller=Test}/{action=Register}/{id?}");
+                    pattern: "admin/{controller=Account}/{action=Register}/{id?}");
 
                 endpoints.MapControllerRoute(
                     name: "default",
